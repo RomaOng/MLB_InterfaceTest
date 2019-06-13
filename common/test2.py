@@ -24,6 +24,6 @@ print("\t")
 print(response.json().get("result")[0].get("packagesn"))
 
 if response.status_code == 200 and response.json().get('error') == 0:
-    print("用例通过1")
+    print("用例通过")
 else:
     print("用例不通过")
